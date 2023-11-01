@@ -44,6 +44,7 @@ public class Clase6Test {
 		
 		pagina.esperarAlerta();
 		pagina.hacerClicEnAceptar(pagina.obtenerAlerta());
+		System.out.println("Después de la prueba");
 	}
 	
 	@AfterSuite
