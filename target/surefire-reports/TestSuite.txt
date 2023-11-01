@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 1, Errors: 0, Skipped: 24, Time elapsed: 62.2 s <<< FAILURE! - in TestSuite
+abrirNavegador(pruebas.Clase5bTest)  Time elapsed: 60.582 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'navegador' is required by BeforeTest on method abrirNavegador but has not been marked @Optional or defined
+
+

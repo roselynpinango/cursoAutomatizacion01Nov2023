@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="pruebas.Clase4Test">
+        <methods>
+          <include name="login"/>
+          <include name="abrirNavegador"/>
+          <include name="cerrarNavegador"/>
+          <include name="buscarPalabra"/>
+        </methods>
+      </class> <!-- pruebas.Clase4Test -->
+      <class name="edit.EducacionIT_65089.AccesoABaseDeDatosTest">
+        <methods>
+          <include name="testBaseDeDatos"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.AccesoABaseDeDatosTest -->
+      <class name="edit.EducacionIT_65089.Clase3Test">
+        <methods>
+          <include name="irAContactanos"/>
+          <include name="cerrarNavegador"/>
+          <include name="buscarPalabra"/>
+          <include name="abrirNavegador"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.Clase3Test -->
+      <class name="pruebas.Clase6Test">
+        <methods>
+          <include name="alertaEspera"/>
+          <include name="abrirNavegador"/>
+          <include name="alertaNotificacion"/>
+          <include name="cerrarNavegador"/>
+        </methods>
+      </class> <!-- pruebas.Clase6Test -->
+      <class name="edit.EducacionIT_65089.AppTest">
+        <methods>
+          <include name="shouldAnswerWithTrue"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.AppTest -->
+      <class name="pruebas.Clase5Test">
+        <methods>
+          <include name="abrirNavegador"/>
+          <include name="login"/>
+          <include name="cerrarNavegador"/>
+        </methods>
+      </class> <!-- pruebas.Clase5Test -->
+      <class name="edit.EducacionIT_65089.MobileEmulationTest">
+        <methods>
+          <include name="testMobileEmulation"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.MobileEmulationTest -->
+      <class name="edit.EducacionIT_65089.ScrollScreenshotTest">
+        <methods>
+          <include name="scrollScreenshotTest"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.ScrollScreenshotTest -->
+      <class name="edit.EducacionIT_65089.Clase1Test">
+        <methods>
+          <include name="buscarPalabraEnEdge"/>
+          <include name="buscarPalabraEnFirefox"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.Clase1Test -->
+      <class name="pruebas.Clase5bTest">
+        <methods>
+          <include name="cerrarNavegador"/>
+          <include name="abrirNavegador"/>
+          <include name="buscarPalabra"/>
+        </methods>
+      </class> <!-- pruebas.Clase5bTest -->
+      <class name="edit.EducacionIT_65089.Clase2Test">
+        <methods>
+          <include name="registrarUsuario"/>
+        </methods>
+      </class> <!-- edit.EducacionIT_65089.Clase2Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

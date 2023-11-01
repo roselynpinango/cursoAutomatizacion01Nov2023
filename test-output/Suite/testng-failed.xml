@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EjecucionEnChrome(failed)">
+    <parameter name="navegador" value="CHROME"/>
+    <classes>
+      <class name="pruebas.Clase5bTest">
+        <methods>
+          <include name="cerrarNavegador"/>
+          <include name="abrirNavegador"/>
+          <include name="buscarPalabra"/>
+        </methods>
+      </class> <!-- pruebas.Clase5bTest -->
+    </classes>
+  </test> <!-- EjecucionEnChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
